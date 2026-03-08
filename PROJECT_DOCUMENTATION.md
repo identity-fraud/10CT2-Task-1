@@ -49,4 +49,37 @@ The website will allow users to explore how the immune system works and how it c
 
 ## Non-Functional Requirements
 ### Performance
-The website will be designed to load within 5 seconds, all animations should be smooth and not stutter or take longer than a second to start. 
+
+The website will be designed to load within 5 seconds, all animations should be smooth and not stutter or take longer than a second to start.
+
+### Usability
+
+The layout will be planned to be consistent, specifically the top navigations bars and universal buttons. This ensures that people will not need to memorise where certains buttons are to navigate around the site. The font will also be atleast size 12 ensuring readability and an option to select the 'dyslexic' font within the settings.
+
+### Reliability
+
+I will test the website primarily between a laptop and a monitor to ensure that different screen sizes still work. Though I will not be testing the site for phones possibly tablets I will make sure that compatibility across macOS and Windows is possible and also ensure that there is no major bugs. 
+
+### Security
+
+No data from the user will be collected or shared to any server by the website. I will also try my best to prevent the site from being backdoored or hacked.
+
+## Social, Ethical and Legal Issues
+### Social Impact
+The main people who will use this website are Kurzgesagt fans and users interested into learning biology and the immune system. To ensure that the website is accessible and understandable by creating making the interface intuitive and the information easy to understand, the same way Kurzgesagt does. The site will also have some considerations into other operating systems, screen resolution and text font to accomodate for most users.
+
+Because the website is designed to be informative, it will have many positive impacts of teaching people how the immune system works. Though there are certain potential risks such as incorrect information or it becomes 'too' simplified, missing key details. Outside of this there shouldn't be any groups or minorities excluded (except for the people that can't read english) or any sensitive information.
+
+### Ethical Responsibilities
+
+The only data the prototype will be 'collecting' will be user feedback, this will only be used to improve the website and the final design and will remain anonymous on who made it.
+
+The themes and ideas, all information about them will be made to be most accurate about them as possible, while keeping it easy to understand. All immune cells and other pathogens will be attempted to be fairly represented, either through the design or the information told next to it.
+
+The book aims to contain no discrimination about any cells, immune or pathogen. Though it may be violent because the immune cells prefer to kill the pathogens. The prototypes will handle these responsibly by adding a violence warning screen before the website shows anything.
+
+### Legal Considerations
+
+The images being used from Kurzgesagt should be under fair use, as I am using it for non-profit educational purposes only, though because the website is public because of Github it may not be fair use but considering that I am redrawing the images from the book as it is not public, and that the main style or ideas are not copyrighted, I should be able to freely use my images inspired from Kurzgesagt.
+
+### Terms of Use
