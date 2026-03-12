@@ -21,7 +21,7 @@ The target audience are people who are interested in biology, and the target age
 I plan to use HTML and CSS to create my site, hosted through Github Pages; HTML and CSS allows me to fully customise my site without limitations unlike other website designers such as Figma, and Github Pages integrates this with Git allowing me to use Github Desktop for full version control and uploads changes to my repository which is required for the assessment task.
 
 ### Initial Brainstorming
-#### Mindmap: ![immune-mindmap-alt-text](images\immune-mindmap.png)
+#### Mindmap: ![immune-mindmap-alt-text](images\immune-mindmap.png "immune mindmap")
 
 #### Website
 
@@ -86,4 +86,4 @@ The images being used from Kurzgesagt should be under fair use, as I am using it
 I will create a "Terms of Use" page within my website, crediting Kurzgesagt as the complete source of the information and inspiration for the images and stating as well that no data will be saved or sent anywhere by the website, apart from the website data itself. The "Terms of Use" page will be linked within the page footer and possibly on the navigation bar at the top as well. Since the beginning of this repository, there will be 70 years + my lifespan (assume 70 as worst case) of my website being copyrighted until I need to renew it, though because I will be using the MIT License anyone will be able to copy and distribute it, as to stay consistent to how Github works (in terms of forks and pull requests).
 
 ## Gantt Chart
-![gantt-chart-alt-text](images\gantt-chart.png)
+![gantt-chart-alt-text](https://github.com/identity-fraud/10CT2-Task-1/blob/f070f4bd33cd04a024fe88145836031a4224c7fd/images/gantt-chart.png)
