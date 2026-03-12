@@ -21,7 +21,7 @@ The target audience are people who are interested in biology, and the target age
 I plan to use HTML and CSS to create my site, hosted through Github Pages; HTML and CSS allows me to fully customise my site without limitations unlike other website designers such as Figma, and Github Pages integrates this with Git allowing me to use Github Desktop for full version control and uploads changes to my repository which is required for the assessment task.
 
 ### Initial Brainstorming
-#### Mindmap: ![immune-mindmap-alt-text](images\immune-mindmap.png "immune mindmap")
+#### Mindmap: ![immune-mindmap-alt-text](images/immune-mindmap.png "immune mindmap")
 
 #### Website
 
