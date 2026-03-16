@@ -88,4 +88,5 @@ I will create a "Terms of Use" page within my website, crediting Kurzgesagt as t
 ## Researching and Planning
 ### Gantt Chart
 ![immune-mindmap-alt-text](images/gantt-chart.png "gantt chart")
-### PMI table
+### UI PMI table
+![UI-PMI-table-alt-text](images/UI-PMI.png "UI PMI table")
