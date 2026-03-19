@@ -58,7 +58,7 @@ The layout will be planned to be consistent, specifically the top navigation bar
 
 ### Reliability
 
-I will test the website primarily between a laptop and a monitor to ensure that different screen sizes still work. Though I will not be testing the site for phones or tablets I will make sure that compatibility across macOS and Windows is possible and also ensure that there are no major bugs.
+I will test the website primarily between a laptop and a monitor to ensure that different screen sizes still work. Though I will not be testing the site for phones or tablets I will make sure that compatibility across macOS and Windows is possible or Safari and Chrome and also ensure that there are no major bugs.
 
 ### Security
 
@@ -90,3 +90,5 @@ I will create a "Terms of Use" page within my website, crediting Kurzgesagt as t
 ![immune-mindmap-alt-text](images/gantt-chart.png "gantt chart")
 ### UI PMI table
 ![UI-PMI-table-alt-text](images/UI-PMI.png "UI PMI table")
+### Software PMI table
+![SOFTWARE-PMI-TABLE-ALT-TEXT](images/SOFTWARE-PMI.png "SOFTWARE PMI TABLE")
