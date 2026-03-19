@@ -1,7 +1,5 @@
-.topnav {
-    background-color: black;
-}
-
 .topnav a {
-    float: left
+    background-color: black;
+    margin: 10px;
+    float: right;
 }
