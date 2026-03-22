@@ -1,5 +1,19 @@
-.topnav a {
-    background-color: black;
-    margin: 10px;
-    float: right;
+body {
+    background-color: #E6E6E9;
 }
+
+.topnav a {
+    background-color: #66666E;
+    color: #F4F4F6;
+    padding: 10px;
+    float: right;
+    text-decoration: none;
+}
+
+/* Color palette: 
+    Black: #000000
+    Dim Grey: #66666E
+    Rosy Granite: #9999A1
+    Alabaster Grey: #E6E6E9
+    Platinum: #F4F4F6
+*/
