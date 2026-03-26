@@ -10,6 +10,10 @@ body {
     text-decoration: none;
 }
 
+.topnav a.active {
+    background-color: #000;
+}
+
 /* Color palette: 
     Black: #000000
     Dim Grey: #66666E
