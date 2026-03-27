@@ -17,6 +17,9 @@ body {
 .cellinfo {
     display: none;
     float: right;
+    margin-top: 100px;
+    border-style: solid;
+    overflow: auto;
 }
 
 /* Color palette: 

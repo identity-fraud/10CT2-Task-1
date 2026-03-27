@@ -1,3 +1,4 @@
 function dentritic() {
-    document.getElementById("dendritic").display="inline";
+    document.getElementById("dendritic").style.display="inline";
+    console.log("dendritic success");
 }
