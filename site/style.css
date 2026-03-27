@@ -14,6 +14,11 @@ body {
     background-color: #000;
 }
 
+.cellinfo {
+    display: none;
+    float: right;
+}
+
 /* Color palette: 
     Black: #000000
     Dim Grey: #66666E
