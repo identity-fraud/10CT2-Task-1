@@ -15,11 +15,12 @@ body {
 }
 
 .cellinfo {
-    display: none;
-    float: right;
-    margin-top: 100px;
+    display: block; /* Changed from none to see it */
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 250px; /* Give it a width so it doesn't collapse */
     border-style: solid;
-    overflow: auto;
 }
 
 /* Color palette: 
