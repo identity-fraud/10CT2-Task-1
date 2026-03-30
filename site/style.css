@@ -15,12 +15,14 @@ body {
 }
 
 .cellinfo {
-    display: block; /* Changed from none to see it */
+    display: none; /* Changed from none to see it */
     position: absolute;
-    right: 0;
+    padding: 10px;
+    right: 10px;
     top: 100px;
-    width: 250px; /* Give it a width so it doesn't collapse */
+    width: auto; /* Give it a width so it doesn't collapse */
     border-style: solid;
+    border-width: 3px;
 }
 
 /* Color palette: 
