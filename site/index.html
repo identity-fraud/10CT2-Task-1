@@ -4,23 +4,55 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title test</title>
+    <title>The Immune System</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="icon" type="image/png" href="assets/neutrophil.png">
+
 </head>
 <body>
+
     <div class="topnav">
         <a class="active" href="index.html">Immune System</a> 
         <a href="complementary.html">Complementary System</a>
         <a href="terms.html">Terms of Use</a>
     </div>
-    <div class="cellinfo" id="dendritic">
-        <h2>Dendritic Cell</h2>
-        <p>A dendritic cell (DC) is an antigen-presenting cell (also known as an accessory cell) of the mammalian immune system</p>
+
+    <h1 style="text-align: center; clear: both;">The Immune System</h2>
+    <h2 style="text-align: center">Innate Immune System</h2>
+
+    <div class="immune-box">
+        <div class="immune-item">
+            <h3>Dendritic Cell</h3>
+            <img src="assets/dentritic.png" alt="dendritic cell vector drawing" onclick="dentritic()">
+        </div>
+        <div class="immune-item">
+            <h3>Neutrophil Cell</h3>
+            <img style="width: 70%" src="assets/neutrophil.png" alt="neutrophil cell vector drawing"> <!-- todo: make universal scripts and seperate by adaptive and normal immune system-->
+        </div>
+        <div class="immune-item">
+            <h3>Macrophage Cell</h3>
+            <img src="assets/macrophage.png" alt="macrophil cell vector drawing">
+        </div>
+        <div class="immune-item">
+            <h3>Natural Killer Cell</h3>
+            <img style="width:70%" src="assets/naturalkiller.png" alt="Natural killer cell vector drawing">
+        </div>
+        <div class="immune-item">
+            <h3>Mast Cell</h3>
+            <img style="width:70%" src="assets/mast.png" alt="Mast cell vector drawing">
+        </div>
+        <div class="section-break">
+            <h2 style="all: revert; text-align: center; display: block;">Adaptive Immune System</h2>
+        </div>
+        <div class="immune-item">
+            <h3>T Cell</h3>
+            <img style="margin-top: 15px" src="assets/t.png" alt="T cell vector drawing">
+        </div>
+        <div class="immune-item">
+            <h3>B Cell</h3>
+            <img style="width:70%" src="assets/b.png" alt="B cell vector drawing">
+        </div>
     </div>
-    <!--add topnavs for complementary system and dropdown for different background or scenarios for the cells-->
-    <h1>favicon website test</h1>
-    <img src="assets/dentritic.png" alt="dentritic cell png" onclick="dentritic()">
     <!-- keep script at the bottom-->
     <script src="script.js"></script>
 </body>

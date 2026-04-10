@@ -14,15 +14,39 @@ body {
     background-color: #000;
 }
 
+.immune-box {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.immune-item {
+    text-align: center;
+    width: 15%;
+    margin: 10px;
+}
+
+.immune-item img {
+    max-width: 100%;
+    height: auto;
+}
+
 .cellinfo {
     display: none; /* Changed from none to see it */
     position: absolute;
     padding: 10px;
     right: 10px;
     top: 100px;
-    width: auto; /* Give it a width so it doesn't collapse */
+    width: auto; 
     border-style: solid;
     border-width: 3px;
+}
+
+.section-break {
+    flex-basis: 100%;
+    width: 100%;
+    margin: 20px 0; 
 }
 
 /* Color palette: 
