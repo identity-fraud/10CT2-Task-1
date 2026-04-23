@@ -3,11 +3,13 @@ body {
 }
 
 .topnav a {
+    position: relative;
     background-color: #66666E;
     color: #F4F4F6;
     padding: 10px;
     float: right;
     text-decoration: none;
+    z-index: 1000
 }
 
 .topnav a.active {
@@ -30,23 +32,49 @@ body {
 .immune-item img {
     max-width: 100%;
     height: auto;
+    z-index: 1;
 }
 
-.cellinfo {
-    display: none; /* Changed from none to see it */
-    position: absolute;
-    padding: 10px;
-    right: 10px;
-    top: 100px;
-    width: auto; 
-    border-style: solid;
-    border-width: 3px;
+.hover-zoom {
+    position: relative;
+    transform: translate(0, 0) scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.08);
+}
+
+.immune-item:has(.is-fullscreen) {
+    z-index: 998;
+}
+
+.hover-zoom.is-fullscreen {
+    z-index: 999;   
+    margin: 0;
 }
 
 .section-break {
     flex-basis: 100%;
     width: 100%;
     margin: 20px 0; 
+}
+
+body:has(.is-fullscreen) .immune-item:not(:has(.is-fullscreen)) {
+    filter: blur(5px);
+}
+
+h1, h2, h3, .section-break, .immune-item {
+    filter: blur(0px);
+    transition: filter 0.7s ease, opacity 0.7s ease;
+}
+
+body:has(.is-fullscreen) h1, 
+body:has(.is-fullscreen) h2,
+body:has(.is-fullscreen) h3,
+body:has(.is-fullscreen) .section-break {
+    filter: blur(5px);
 }
 
 /* Color palette: 
