@@ -2,6 +2,10 @@ body {
     background-color: #E6E6E9;
 }
 
+img {
+    user-select: none;  
+}
+
 .topnav a {
     position: relative;
     background-color: #66666E;
@@ -18,9 +22,9 @@ body {
 
 .immune-box {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    text-align: center;
+    justify-content: center;
+    align-items: center;    
 }
 
 .immune-item {
