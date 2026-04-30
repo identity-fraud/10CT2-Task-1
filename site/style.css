@@ -1,5 +1,6 @@
 body {
     background-color: #E6E6E9;
+    overflow: hidden;
 }
 
 img {
@@ -69,7 +70,7 @@ body:has(.is-fullscreen) .immune-item:not(:has(.is-fullscreen)) {
     filter: blur(5px);
 }
 
-h1, h2, h3, .section-break, .immune-item {
+h1, h2, h3, .section-break, .immune-item, hr {
     filter: blur(0px);
     transition: filter 0.7s ease, opacity 0.7s ease;
 }
@@ -77,9 +78,20 @@ h1, h2, h3, .section-break, .immune-item {
 body:has(.is-fullscreen) h1, 
 body:has(.is-fullscreen) h2,
 body:has(.is-fullscreen) h3,
-body:has(.is-fullscreen) .section-break {
+body:has(.is-fullscreen) .section-break,
+body:has(.is-fullscreen) hr {
     filter: blur(5px);
 }
+
+.sidebar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+
+    max-width: 50%; 
+}
+
 
 /* Color palette: 
     Black: #000000
