@@ -25,10 +25,6 @@ img {
     background-color: #000;
 }
 
-.topnav a:hover {
-    background-color: #9999A1
-}
-
 .immune-box {
     display: flex;
     flex-wrap: wrap;
