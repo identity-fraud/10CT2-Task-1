@@ -6,6 +6,11 @@ img {
     user-select: none;  
 }
 
+.title {
+    float: left;
+    margin-top: 0px;
+}
+
 .topnav a {
     position: relative;
     background-color: #66666E;
@@ -20,11 +25,18 @@ img {
     background-color: #000;
 }
 
+.topnav a:hover {
+    background-color: #9999A1
+}
+
 .immune-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bbb;
 }
 
 .immune-item {
@@ -91,7 +103,7 @@ body:has(.is-fullscreen) hr {
     max-width: 50%; 
 }
 
-
+/* todo: repplace filter with backdrop-filter*/
 /* Color palette: 
     Black: #000000
     Dim Grey: #66666E
