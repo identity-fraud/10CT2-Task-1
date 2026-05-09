@@ -73,23 +73,16 @@ img {
     margin: 20px 0; 
 }
 
-body:has(.is-fullscreen) .immune-item:not(:has(.is-fullscreen)) {
-    filter: blur(5px);
-}
-
-h1, h2, h3, .section-break, .immune-item, hr {
-    filter: blur(0px);
+.immune-item {
     transition: filter 0.7s ease, opacity 0.7s ease;
 }
 
-body:has(.is-fullscreen) h1, 
-body:has(.is-fullscreen) h2,
-body:has(.is-fullscreen) h3,
-body:has(.is-fullscreen) .section-break,
-body:has(.is-fullscreen) hr {
-    filter: blur(5px);
+.is-fullscreen {
+    backdrop-filter: blur(5px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbb;
 }
-
 .sidebar {
     position: absolute;
     top: 20px;
@@ -99,7 +92,7 @@ body:has(.is-fullscreen) hr {
     max-width: 50%; 
 }
 
-/* todo: repplace filter with backdrop-filter*/
+/* todo: replace filter with backdrop-filter, redo style.css*/
 /* Color palette: 
     Black: #000000
     Dim Grey: #66666E
