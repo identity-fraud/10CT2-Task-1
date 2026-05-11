@@ -83,15 +83,38 @@ img {
     border-width: 1px;
     border-color: #bbb;
 }
-.sidebar {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 24px;
 
-    max-width: 50%; 
+.sidebar p, h2 {
+    margin: 10px;
 }
 
+.sidebar {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-size: 24px;
+    border-width: 2px;
+    border-color: #bbb;
+    border-style: solid;
+    max-width: 40%; 
+    background-color: #F4F4F6;
+    z-index: 1001;
+}
+
+.x {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    background-color: #F4F4F6;
+    border-style: solid;
+    border-color: #bbb;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    height: 50px;
+}
 /* todo: replace filter with backdrop-filter, redo style.css*/
 /* Color palette: 
     Black: #000000

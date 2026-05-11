@@ -7,6 +7,7 @@ function zoom(el) {
         el.classList.remove('is-fullscreen');
         sidebarTitle.innerText = '';
         sidebarDescription.innerText = '';
+        sidebar.style.display = 'none';
         return;
     }
     const activeImage = document.querySelector('.is-fullscreen');
@@ -27,14 +28,15 @@ function zoom(el) {
 
     el.style.transform = `translate(${xMove}px, ${yMove}px) scale(3)`;
     el.classList.add('is-fullscreen');
+    sidebar.style.display = 'block';
     const exactCellname = el.alt.replace(' cell vector drawing', '')
-    sidebarTitle.innerText = exactCellname + ' ' + "cell";
+    sidebarTitle.innerText = exactCellname.charAt(0).toUpperCase() + exactCellname.slice(1) + ' ' + "Cell";
     sidebarDescription.innerText = getCellDescription(exactCellname);
 }
 
 function getCellDescription(name) {
     const descriptions = {
-        'dendritic': "Dendritic cells are messengers that present antigens to T cells.",
+        'dendritic': "A dendritic cell is a type of immune cell that captures and processes pathogens by grabbing them with their long arms and engulfing them and breaking them down into smaller pieces or antigens. They are generally positioned in tissues close to the external environment (skin, lungs, gut) and constantly scans for these pathogens. When the dendritic cells have enough antigens, they move towards the lymph nodes, to present them on their body to naive T Cells, which will coordinate a precise immune response by the T Cells.",
         'neutrophil': "Neutrophils are the first responders to infection, eating pathogens.",
         'macrophage': "Macrophages are 'big eaters' that clean up debris and dead cells.",
         'natural killer': "NK cells destroy virally infected cells and tumor cells.",
