@@ -91,6 +91,9 @@ I will create a "Terms of Use" page within my website, crediting Kurzgesagt as t
 ### UI PMI table
 ![UI-PMI-table-alt-text](images/UI-PMI.png "UI PMI table")
 ### Software PMI table
-![SOFTWARE-PMI-TABLE-ALT-TEXT](images/SOFTWARE-PMI.png "SOFTWARE PMI TABLE")
-
+![software-PMI-table-alt-text](images/SOFTWARE-PMI.png "SOFTWARE PMI TABLE")
+### Wireframes
+![wireframes-1-alt-text](images/wireframes-1.png "Wireframes 1")
+![wireframes-2-alt-text](images/wireframes-2.png "Wireframes 2")
+![wireframes-3-alt-text](images/wireframes-3.png "Wireframes 3")
 <!-- add two more wireframes add feedback to wireframes-->
