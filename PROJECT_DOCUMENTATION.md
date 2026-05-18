@@ -90,9 +90,27 @@ I will create a "Terms of Use" page within my website, crediting Kurzgesagt as t
 ### UI PMI table
 ![UI-PMI-table-alt-text](images/UI-PMI.png "UI PMI table")
 ### Software PMI table
-![software-PMI-table-alt-text](images/SOFTWARE-PMI.png "SOFTWARE PMI TABLE")
+![software-PMI-table-alt-text](images/SOFTWARE-PMI.png "software PMI table")
 ### Wireframes
-![wireframes-1-alt-text](images/wireframes-1.png "Wireframes 1")
-![wireframes-2-alt-text](images/wireframes-2.png "Wireframes 2")
-![wireframes-3-alt-text](images/wireframes-3.png "Wireframes 3")
-<!-- add two more wireframes add feedback to wireframes-->
+![wireframes-1-alt-text](images/wireframes/wireframes-1.png "Wireframes 1")
+![wireframes-2-alt-text](images/wireframes/wireframes-2.png "Wireframes 2")
+![wireframes-3-alt-text](images/wireframes/wireframes-3.png "Wireframes 3")
+
+#### Feedback
+[Feedback form](https://docs.google.com/forms/d/1b5vwe3qbZi63FofF-DnslHNZfrzNV0qCibIPMiYaeRk/edit)
+
+#### Feedback evaluation
+
+## Producing and Implementing
+### Sprint 1
+[prototype-1](prototypes/prototype-1.html)
+
+I started with a simple HTML boilerplate after having my Github pages setup correctly, then created my top navigation bar for future use where I add the terms of use and complement system pages. I then drew my example dendritic cell and added it here with a javascript to make it display text when I click it. I planned to add more images and fix the CSS to appear better.
+
+### Sprint 2
+
+[prototype-2](prototypes/prototypes-2/)
+
+I decided to add much more images
+
+## Testing and Evaluating
