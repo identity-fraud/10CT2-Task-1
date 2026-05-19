@@ -86,10 +86,10 @@ img {
 
 .sidebar {
     position: absolute;
-    top: 60px;
+    top: 50px;
     right: 20px;
     padding: 10px;
-    margin: 0;
+    margin: 0px;
     font-size: 24px;
     max-width: 40%; 
     border-style: solid;
@@ -100,7 +100,14 @@ img {
     backdrop-filter: blur(5px);
 }
 
-/* todo: replace filter with backdrop-filter, redo style.css*/
+.sidebar h3 {
+    margin: 0;
+}
+
+.sidebar p {
+    margin: 10px 0 0 0;
+}
+
 /* Color palette: 
     Black: #000000
     Dim Grey: #66666E

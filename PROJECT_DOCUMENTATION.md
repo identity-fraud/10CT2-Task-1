@@ -79,7 +79,7 @@ The themes and ideas, all information about them will be made to be as accurate 
 The website aims to contain no discrimination about any cells, immune or pathogen, and also humans as well. Though it may be violent because the immune cells prefer to kill the pathogens and the pathogens prefer to kill the immune cells. The prototypes will handle these responsibly by adding a violence warning screen before the website shows anything.
 
 ### Legal Considerations
-I am intending this project for non-profit educational purposes only allowing thie project to be under fair use (or "dealings"). Though because my illustrations are heavily inspired by the other images and style of Kurzgesagt I will note this consideration within the terms of use. 
+I am intending this project for non-profit educational purposes allowing this project to be under fair use (or "dealings"). Though because my illustrations are heavily inspired by the other images and style of Kurzgesagt I will note this consideration within the terms of use. 
 
 ### Terms of Use
 I will create a "Terms of Use" page within my website, crediting Kurzgesagt as the source of the information and inspiration for the images and stating as well that no data will be saved or sent anywhere by the website, apart from the website data itself. The "Terms of Use" page will be linked within the page footer and possibly on the navigation bar at the top as well. Though because I will be using the MIT License anyone will be able to copy and distribute it, as to stay consistent to the Github and open source software nature.
@@ -111,6 +111,13 @@ I started with a simple HTML boilerplate after having my Github pages setup corr
 
 [prototype-2](prototypes/prototypes-2/)
 
-I decided to add much more images
+I decided to add much more images and changed the CSS so that it appears in a grid layout. I then improved on the Terms of Use to include the license and actual terms. I also improved on the javascript to allow toggling the text. I also replaced the test favicon image with the neutrophil. 
+At this state it is not interactable which I would add later.
+
+### Sprint 3 (current site)
+
+[prototype-3](site/index.html)
+
+This is my final prototype makes the CSS and overall UI much more appealing. I started by changing the title from the middle to the left mirroring normal websites, then added borders and section breaks to further seperate the innate and adaptive immune system. I also added hover effects and made the zoom effect centered using CSS. I also added informative text that appears when you zoom (click) the images. I also added preloading to the backend which allows you to switch very quickly to other pages if you wanted.
 
 ## Testing and Evaluating
