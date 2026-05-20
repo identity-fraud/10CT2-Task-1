@@ -113,7 +113,7 @@ I was going to implement Wireframes 2 though the implementation I wanted was too
 
 ## Producing and Implementing
 ### Sprint 1
-[prototype-1](prototypes/prototype-1.html)
+[prototype-1](prototypes/prototypes-1/prototype-1.html)
 
 I started with a simple HTML boilerplate after having my Github pages setup correctly, then created my top navigation bar for future use where I add the terms of use and complement system pages. I then drew my example dendritic cell and added it here with a javascript to make it display text when I click it. I planned to add more images and fix the CSS to appear better.
 
@@ -121,19 +121,41 @@ I did certain testing to understand whether or not this basic html would be comp
 
 Currently this prototype is very unfinished, and I hope make it more useable by adding more images and more information to the site. I am also considering to add an easier way to identify whether or not the image is a button by enlarging the image when hovering. 
 
+#### User Feedback
+
+    Analyse the key themes that emerged from user feedback and their overall impact on the project.
+
+    Evaluate how intuitive and user-friendly the prototype was based on user feedback.
+
+    Analyse whether the design elements and accessibility features effectively met user needs.
+
+    Evaluate the performance of the prototype, including any issues related to speed, responsiveness, or compatibility.
+
+    Analyse the similarities and differences between survey responses and interview insights to identify patterns.
+
+    Evaluate the most critical areas for improvement and how they should be addressed in the next sprint.
+
 ### Sprint 2
 
-[prototype-2](prototypes/prototypes-2/)
+[prototype-2](prototypes/prototypes-2/prototype-2.html)
 
 I decided to add much more images and changed the CSS so that it appears in a grid layout. I then improved on the Terms of Use to include the license and actual terms. I also improved on the javascript to allow toggling the text. I also replaced the test favicon image with the neutrophil. At this state it is not interactable which I would add later.
 
-Again I did testing to ensure it is compatible on all environments and found no issue except for 
+Again I did testing to ensure it is compatible on all environments and found no issue except for where my first zooming in function feature breaks or appears in an incorrect position in different screen resolutions, which I fixed by completely removing it. 
+
+At this stage my prototype is decently there though I believe I would not be able to finish certain UIs or elements in times such as the complement system and dropdown menus. I also plan to fix the zoom functions and hover functions 
 
 ### Sprint 3 (current site)
 
 [prototype-3](site/index.html)
 
-This is my final prototype makes the CSS and overall UI much more appealing. I started by changing the title from the middle to the left mirroring normal websites, then added borders and section breaks to further seperate the innate and adaptive immune system. I also added hover effects and made the zoom effect centered using CSS. I also added informative text that appears when you zoom (click) the images. I also added preloading to the backend which allows you to switch very quickly to other pages if you wanted.
+This is my final prototype and making the CSS and overall UI much more appealing. I started by changing the title from the middle to the left mirroring normal websites, then added borders and section breaks to further seperate the innate and adaptive immune system. I also added hover effects and made the zoom effect centered using CSS. I also added informative text that appears when you zoom (click) the images. I also added preloading to the backend which allows you to switch very quickly to other pages if you wanted. I again improved on the Terms of Use by making the title more consistent with the other pages. 
+
+I tested on the same environments again and found no issues as well. 
+
+I also decided to stop working on the other pages as I am running out of time to finish them, so many features I mentioned in this document will probably not be available on the site (apart from the image gallery, information and Terms of Use). 
+
+
 
 ## Testing and Evaluating
 
