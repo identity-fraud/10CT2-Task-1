@@ -96,10 +96,20 @@ I will create a "Terms of Use" page within my website, crediting Kurzgesagt as t
 ![wireframes-2-alt-text](images/wireframes/wireframes-2.png "Wireframes 2")
 ![wireframes-3-alt-text](images/wireframes/wireframes-3.png "Wireframes 3")
 
-#### Feedback
-[Feedback form](https://docs.google.com/forms/d/1b5vwe3qbZi63FofF-DnslHNZfrzNV0qCibIPMiYaeRk/edit)
+### Feedback
+
+![chart1-alt-text](images/forms-chart/chart1.png "How intuitive would Wireframes 1 be in terms of user experience/useability")
+![chart2-alt-text](images/forms-chart/chart2.png "How intuitive would Wireframes 2 be in terms of user experience/useability")
+![chart3-alt-text](images/forms-chart/chart3.png "How intuitive would Wireframes 3 be in terms of user experience/useability")
+![chart4-alt-text](images/forms-chart/chart4.png "How easy to navigate does Wireframes 1 appear to be")
+![chart5-alt-text](images/forms-chart/chart5.png "How easy to navigate does Wireframes 2 appear to be")
+![chart6-alt-text](images/forms-chart/chart6.png "How easy to navigate does Wireframes 3 appear to be")
+![chart7-alt-text](images/forms-chart/chart7.png "What improvements would you suggest regardless of your chosen value for any of the wireframes")
+![chart8-alt-text](images/forms-chart/chart8.png "Which wireframes would be the best out of the rest and why (you can include your improvements")
 
 #### Feedback evaluation
+
+I was going to implement Wireframes 2 though the implementation I wanted was too hard to create in javascript and I had already made my gallery type layout shown in Wireframes 1. To make my images more seperate to each other I have decided to create borders with a blur when they zoom in which might be difficult. I also chose to use titles within the cell description along with a different font size for important titles.
 
 ## Producing and Implementing
 ### Sprint 1
@@ -107,12 +117,17 @@ I will create a "Terms of Use" page within my website, crediting Kurzgesagt as t
 
 I started with a simple HTML boilerplate after having my Github pages setup correctly, then created my top navigation bar for future use where I add the terms of use and complement system pages. I then drew my example dendritic cell and added it here with a javascript to make it display text when I click it. I planned to add more images and fix the CSS to appear better.
 
+I did certain testing to understand whether or not this basic html would be compatible between certain platforms, browsers and window resolutions (Windows, macOS and Chrome, Safari, Firefox and laptop, desktop). After my testing showed that all the javascript, html and CSS displays correctly across these different environments I decided to move on to the next sprint
+
+Currently this prototype is very unfinished, and I hope make it more useable by adding more images and more information to the site. I am also considering to add an easier way to identify whether or not the image is a button by enlarging the image when hovering. 
+
 ### Sprint 2
 
 [prototype-2](prototypes/prototypes-2/)
 
-I decided to add much more images and changed the CSS so that it appears in a grid layout. I then improved on the Terms of Use to include the license and actual terms. I also improved on the javascript to allow toggling the text. I also replaced the test favicon image with the neutrophil. 
-At this state it is not interactable which I would add later.
+I decided to add much more images and changed the CSS so that it appears in a grid layout. I then improved on the Terms of Use to include the license and actual terms. I also improved on the javascript to allow toggling the text. I also replaced the test favicon image with the neutrophil. At this state it is not interactable which I would add later.
+
+Again I did testing to ensure it is compatible on all environments and found no issue except for 
 
 ### Sprint 3 (current site)
 
@@ -121,3 +136,4 @@ At this state it is not interactable which I would add later.
 This is my final prototype makes the CSS and overall UI much more appealing. I started by changing the title from the middle to the left mirroring normal websites, then added borders and section breaks to further seperate the innate and adaptive immune system. I also added hover effects and made the zoom effect centered using CSS. I also added informative text that appears when you zoom (click) the images. I also added preloading to the backend which allows you to switch very quickly to other pages if you wanted.
 
 ## Testing and Evaluating
+
