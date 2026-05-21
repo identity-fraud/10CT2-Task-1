@@ -1,4 +1,6 @@
 # 10CT2 Task 1 UX Design - Project Documentation
+
+The website is hosted on github pages: [site](https://identity-fraud.github.io/10CT2-Task-1/)
 ## Project Proposal
 ### Design Brief
 
@@ -76,7 +78,7 @@ The only data the prototype will be 'collecting' will be user feedback, this wil
 
 The themes and ideas, all information about them will be made to be as accurate about them as possible, while keeping it easy to understand. All immune cells and other pathogens will be attempted to be fairly represented, either through the design or the information told next to it.
 
-The website aims to contain no discrimination about any cells, immune or pathogen, and also humans as well. Though it may be violent because the immune cells prefer to kill the pathogens and the pathogens prefer to kill the immune cells. The prototypes will handle these responsibly by adding a violence warning screen before the website shows anything.
+The website aims to contain no discrimination about any cells, immune or pathogen, and also humans as well. Though it may be violent because the immune cells prefer to kill the pathogens and the pathogens prefer to kill the body cells. The prototypes will handle these responsibly by adding a violence warning screen before the website shows anything.
 
 ### Legal Considerations
 I am intending this project for non-profit educational purposes allowing this project to be under fair use (or "dealings"). Though because my illustrations are heavily inspired by the other images and style of Kurzgesagt I will note this consideration within the terms of use. 
@@ -149,7 +151,7 @@ I decided to add much more images and changed the CSS so that it appears in a gr
 
 Again I did testing to ensure it is compatible on all environments and found no issue except for where my first zooming in function feature breaks or appears in an incorrect position in different screen resolutions, which I fixed by completely removing it. 
 
-At this stage my prototype is decently there though I believe I would not be able to finish certain UIs or elements in times such as the complement system and dropdown menus. I also plan to fix the zoom functions and hover functions 
+At this stage my prototype is decently there though I believe I would not be able to finish certain UIs or elements in times such as the complement system and dropdown menus. I also plan to fix the zoom functions and hover functions.
 
 #### Prototype Feedback
 
@@ -158,6 +160,9 @@ At this stage my prototype is decently there though I believe I would not be abl
 "there is too much space on the right so you should add more adaptive immune cells."
 
 "your website should have like lines to divide the sections, and make it more usable by adding information when you click the images or something. 
+
+Clearly the removal of javascript made the website appear less informational and while this is only my second sprint I realised I need to focus and creating one instead of pushing it for later. I also decided in my next sprint I am adding border lines and seperator lines between the adaptive and innate immune systems as suggested and probably center the images as well to stop people complaining about the waste of space on the right.
+
 ### Sprint 3 (current site)
 
 [prototype-3](site/index.html)
@@ -168,7 +173,6 @@ I tested on the same environments again and found no issues as well.
 
 I also decided to stop working on the other pages as I am running out of time to finish them, so many features I mentioned in this document will probably not be available on the site (apart from the image gallery, information and Terms of Use). 
 
+## Final Evaluation
 
-
-## Testing and Evaluating
-
+My product effectively met the basic functional and non-functional requirements such as displaying images of immune cells with related information to it also shown while zooming in with usable performance and compatbility though I did not meet some others. Use cases and functional requirements such as the complement system or the ability to drag other images did not end up in the final product for being too difficult and time consuming in this current scope. The current product is in my opinion very useable and reliable with well made UI/UX design for the purpose of this task. The final product does meet many of the intentions outlined in the design brief, which is that I successfully made an interactive website experience based off from the Kurzgesagt's Immune, and remains still relevant to the target audience. I think my project addresses relevant social, ethical, legal responsibilities correctly and effectively as I made sure it would very accessible to english speaking users and very relevant to the book while being under fair dealings. I believe I managed my time effectively though technically if I did not go to the TASmania trip I would likely have been able to finish or start the other pages such as complement and other features that I planned in the functional requirements. I think I had little challenges overall apart from learning HTML/CSS/JS from the start though I probably should've done weekly screenshots and reports but I kind of forgot about it. I think I effectively gathered and reponded to user feedback as many design choices in this site would not have existed without people complaining about certain small details such as borders and even the font. I think there are many improvements I could've done to my website, primarily I wished I could've added a gallery slideshow feature to display even more cell variants (e.g Killer T Cell) in the way Kurzgesagt has illustrated them, along with tailored information about. Apart from the I am pretty find with this project as the other pages I thought in the functional requirements were pretty unnecessary.
