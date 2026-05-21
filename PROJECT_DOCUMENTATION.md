@@ -96,7 +96,7 @@ I will create a "Terms of Use" page within my website, crediting Kurzgesagt as t
 ![wireframes-2-alt-text](images/wireframes/wireframes-2.png "Wireframes 2")
 ![wireframes-3-alt-text](images/wireframes/wireframes-3.png "Wireframes 3")
 
-### Feedback
+### Wireframes Feedback
 
 ![chart1-alt-text](images/forms-chart/chart1.png "How intuitive would Wireframes 1 be in terms of user experience/useability")
 ![chart2-alt-text](images/forms-chart/chart2.png "How intuitive would Wireframes 2 be in terms of user experience/useability")
@@ -121,7 +121,7 @@ I did certain testing to understand whether or not this basic html would be comp
 
 Currently this prototype is very unfinished, and I hope make it more useable by adding more images and more information to the site. I am also considering to add an easier way to identify whether or not the image is a button by enlarging the image when hovering. 
 
-#### User Feedback
+#### Prototype Feedback (from peers)
 
     Analyse the key themes that emerged from user feedback and their overall impact on the project.
 
@@ -134,6 +134,12 @@ Currently this prototype is very unfinished, and I hope make it more useable by 
     Analyse the similarities and differences between survey responses and interview insights to identify patterns.
 
     Evaluate the most critical areas for improvement and how they should be addressed in the next sprint.
+  
+"This cell image is way too large for some reason and the text has borders too close to the text. the image is very interesting though. also the description thing does not toggle and there is not a lot of information in it to justify taking that much space. You should also rename your website title to something other than test."
+
+"very cool website but what is the purpose of this, and your image button thing is broken as well as your complementary system being completely empty for some reason. its also reallyu hard to realise that the image is clickable."
+
+Overall many people critiqued my website on my broken javascript toggle which probably because I stole it from W3SketchSchools and that I should rename my website title. They also mentioned how it was easy to navigate between the different pages but very hard to notice that the image was even toggleable. Many testers also allowed me to recognise how accessible the website is from people accessing it from Firefix, Edge and Chrome. People also said that my top navigation bar was very intuitive and response, though they say otherwise about the image. The most critical area for improvement is clearly the image as I realised now with user feedback, and I should solve this in my next sprint by deleting the javascript and procrastinating making the information toggle.
 
 ### Sprint 2
 
@@ -145,6 +151,13 @@ Again I did testing to ensure it is compatible on all environments and found no 
 
 At this stage my prototype is decently there though I believe I would not be able to finish certain UIs or elements in times such as the complement system and dropdown menus. I also plan to fix the zoom functions and hover functions 
 
+#### Prototype Feedback
+
+"this website is trash what is the point of this" 
+
+"there is too much space on the right so you should add more adaptive immune cells."
+
+"your website should have like lines to divide the sections, and make it more usable by adding information when you click the images or something. 
 ### Sprint 3 (current site)
 
 [prototype-3](site/index.html)
