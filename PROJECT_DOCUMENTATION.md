@@ -124,18 +124,6 @@ I did certain testing to understand whether or not this basic html would be comp
 Currently this prototype is very unfinished, and I hope make it more useable by adding more images and more information to the site. I am also considering to add an easier way to identify whether or not the image is a button by enlarging the image when hovering. 
 
 #### Prototype Feedback (from peers)
-
-    Analyse the key themes that emerged from user feedback and their overall impact on the project.
-
-    Evaluate how intuitive and user-friendly the prototype was based on user feedback.
-
-    Analyse whether the design elements and accessibility features effectively met user needs.
-
-    Evaluate the performance of the prototype, including any issues related to speed, responsiveness, or compatibility.
-
-    Analyse the similarities and differences between survey responses and interview insights to identify patterns.
-
-    Evaluate the most critical areas for improvement and how they should be addressed in the next sprint.
   
 "This cell image is way too large for some reason and the text has borders too close to the text. the image is very interesting though. also the description thing does not toggle and there is not a lot of information in it to justify taking that much space. You should also rename your website title to something other than test."
 
@@ -172,7 +160,31 @@ This is my final prototype and making the CSS and overall UI much more appealing
 I tested on the same environments again and found no issues as well. 
 
 I also decided to stop working on the other pages as I am running out of time to finish them, so many features I mentioned in this document will probably not be available on the site (apart from the image gallery, information and Terms of Use). 
+## Ongoing Evaluation
+![Week 1](images/ongoing/week1.png)
+
+The image here is the earliest I found because I sort of forgot to screenshot these (it is also the same as prototype 1) but the work I did in first week was work on the documentation and outline my project proposal and design briefs, I also did have a basic boilerplate but no UI elements apart from the title (favicon website test).
+
+![Week 2](images/ongoing/week1.png)
+
+I first started with a simple top navigation bar which was a little difficult to make in the beginning because I had no understanding of CSS or HTML but after looking at W3SKetchSchools step by step tutorial I figured it out and built my own. I also drew my first image of the dendritic cell and later an attempt to create a javascript function to toggle a description which failed and I gave up on. 
+
+![Week 3](images/ongoing/week2.png)
+
+This is also from my second prototype but since I never took any weekly screenshots this image is inaccurate but I did test many different ways to implement the javascript function to toggle the description before giving up. I would only later add the images and in general I did not get much done apart from make Terms of Use which is empty. I also changed the website background colour to a less bright white for easier viewing.
+
+![Week 4](images/ongoing/week2.png)
+
+On this week I decided to add significantly more images and finally correct the layout using the CSS grid layout. I also completely removed the javascript function since it was too difficult and time consuming. I also added nonplaceholder titles and sub titles such as adaptive/innate immune system and I also changed the placeholder favicon with my new neutrophil image.
+
+![Week 5](images/ongoing/week3.png)
+
+I improved on my website on the fifth week by finally adding the javascript function to toggle the description and even zoom in the image. Though currently the description only has placeholder text and I also added information to the Terms of Use like my license and the link to my repository. I also deleted the blank complement system page since I realised that I would probably not have enough time to fully make it.
+
+![Week 6](images/ongoing/week3.png)
+
+This week I changed the font and added borders due to complaints whilst fixing the zoom function since the blur filter never applied to borders. I also replaced the placeholder description text with information I knew from the book itself and I decided to add some more information to the Terms of Use such as the fair dealings copyright exception.
 
 ## Final Evaluation
 
-My product effectively met the basic functional and non-functional requirements such as displaying images of immune cells with related information to it also shown while zooming in with usable performance and compatbility though I did not meet some others. Use cases and functional requirements such as the complement system or the ability to drag other images did not end up in the final product for being too difficult and time consuming in this current scope. The current product is in my opinion very useable and reliable with well made UI/UX design for the purpose of this task. The final product does meet many of the intentions outlined in the design brief, which is that I successfully made an interactive website experience based off from the Kurzgesagt's Immune, and remains still relevant to the target audience. I think my project addresses relevant social, ethical, legal responsibilities correctly and effectively as I made sure it would very accessible to english speaking users and very relevant to the book while being under fair dealings. I believe I managed my time effectively though technically if I did not go to the TASmania trip I would likely have been able to finish or start the other pages such as complement and other features that I planned in the functional requirements. I think I had little challenges overall apart from learning HTML/CSS/JS from the start though I probably should've done weekly screenshots and reports but I kind of forgot about it. I think I effectively gathered and reponded to user feedback as many design choices in this site would not have existed without people complaining about certain small details such as borders and even the font. I think there are many improvements I could've done to my website, primarily I wished I could've added a gallery slideshow feature to display even more cell variants (e.g Killer T Cell) in the way Kurzgesagt has illustrated them, along with tailored information about. Apart from the I am pretty find with this project as the other pages I thought in the functional requirements were pretty unnecessary.
+My product effectively met the basic functional and non-functional requirements such as displaying images of immune cells with related information to it also shown while zooming in with usable performance and compatbility though I did not meet some others. Use cases and functional requirements such as the complement system or the ability to drag other images did not end up in the final product for being too difficult and time consuming in this current scope. The current product is in my opinion very useable and reliable with intuitive UI/UX design for the purpose of this task. The final product does meet many of the intentions outlined in the design brief, which is that I successfully made an interactive website experience based off from the Kurzgesagt's Immune, and remains still relevant to the target audience. I think my project addresses relevant social, ethical, legal responsibilities correctly and effectively as I made sure it would very accessible to english speaking users and very relevant to the book while being under fair dealings. I believe I managed my time effectively though technically if I did not go to the TASmania trip I would likely have been able to finish or start the other pages such as complement and other features that I planned in the functional requirements. I think I had little challenges overall apart from learning HTML/CSS/JS from the start though I probably should've done weekly screenshots and reports but I kind of forgot about it. I think I effectively gathered and reponded to user feedback as many design choices in this site would not have existed without people complaining about certain small details such as borders and even the font. I think there are many improvements I could've done to my website, primarily I wished I could've added a gallery slideshow feature to display even more cell variants (e.g Killer T Cell) in the way Kurzgesagt has illustrated them, along with tailored information about them. Apart from those I am pretty find with this project as the other pages I thought in the functional requirements were pretty unnecessary.
